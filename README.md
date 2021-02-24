@@ -20,3 +20,6 @@ python -m build
 twine upload --repository testpypi dist/*
 pip install --index-url https://test.pypi.org/simple/ --no-deps jhevrin2_dostuff
 ```
+
+### Link to PyPI Package
+https://test.pypi.org/project/jhevrin2-dostuff/
