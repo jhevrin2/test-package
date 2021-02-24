@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-setup(name='test-package',
+setup(name='dostuff',
       version='1.0',
       description='Testing package for writing pip installable packages',
       author='Jeff Hevrin',
