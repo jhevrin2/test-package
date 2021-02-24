@@ -21,5 +21,12 @@ twine upload --repository testpypi dist/*
 pip install --index-url https://test.pypi.org/simple/ --no-deps jhevrin2_dostuff
 ```
 
+### Try out the package
+
+```python
+from dostuff.communicate import create_greeting
+create_greeting(name='Jeff')
+```
+
 ### Link to PyPI Package
 https://test.pypi.org/project/jhevrin2-dostuff/
